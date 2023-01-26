@@ -59,3 +59,38 @@ body {
     width: 100%;
     outline: none;
 }
+
+#results-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.grid-item {
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 360px;
+    overflow: hidden;
+}
+
+.grid-item__preview {
+    width: 100%;
+    height: 150px;
+}
+
+.grid-item__content {
+    padding: 24px;
+}
+
+.grid-item__content h3 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+}
+
+.grid-item__content p {
+    margin: 4px 0 0 0;
+    font-family: "Poppins", sans-serif;
+    color: rgb(168, 168, 168);
+}
