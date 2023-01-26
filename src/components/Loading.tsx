@@ -1,3 +1,7 @@
 export default function loading() {
-    return <div>Loading</div>;
+    return (
+        <section id="loading-container">
+            <p>Loading</p>
+        </section>
+    );
 }
