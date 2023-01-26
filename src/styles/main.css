@@ -21,3 +21,41 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
+
+#search-section {
+    max-width: 1200px;
+    margin: 72px auto;
+}
+
+#search-section header h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: rgb(138, 138, 138);
+}
+
+#search-section header p {
+    margin: 12px 0 0 0;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+#search-bar-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#search-bar-container input {
+    margin: 100px auto 50px auto;
+    padding: 8px 12px;
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    outline: none;
+}
