@@ -29,7 +29,7 @@ export default function SearchResults({ data }: SearchResultsProps) {
     }, [searchQuery]);
 
     return (
-        <section>
+        <section id="search-section">
             <header>
                 <h1>Color Selector</h1>
                 <p>
